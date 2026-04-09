@@ -8,27 +8,60 @@ body {
   color: #1a1a1a;
 }
 
-/* Header */
+/* Header bar */
 .site-header {
   background-color: #2e7d32;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #1f5a24;
+  padding: 14px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.site-header * {
+/* Keep header content centered and spaced nicely */
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Blog title */
+.site-title,
+.site-title:visited {
   color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+/* Header links / nav */
+.site-nav .page-link,
+.site-nav .page-link:visited {
+  color: #ffffff;
+  margin-left: 18px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hover effect */
+.site-title:hover,
+.site-nav .page-link:hover {
+  color: #d8ffd8;
+  text-decoration: none;
 }
 
 /* Footer */
 .site-footer {
   background-color: #2e7d32;
-  border-top: 1px solid #222;
+  border-top: 1px solid #1f5a24;
 }
 
 .site-footer * {
   color: #1a1a1a;
 }
 
-/* Links */
+/* Body links */
 a {
   color: #006400;
   text-decoration: none;
