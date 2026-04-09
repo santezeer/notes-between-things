@@ -1,9 +1,7 @@
-</> Markdown
-
 ---
-layout:page
+layout: page
 title: Thoughts
-permalink: /Thoughts/
+permalink: /thoughts/
 ---
 
 Short posts and observations.
