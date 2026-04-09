@@ -8,23 +8,32 @@ body {
   color: #1a1a1a;
 }
 
-.site-header *,
-.site-footer * {
-  color: #ffffff;
-}
-
+/* Header */
 .site-header {
+  background-color: #2e7d32;
   border-bottom: 1px solid #222;
 }
 
+.site-header * {
+  color: #ffffff;
+}
+
+/* Footer */
 .site-footer {
+  background-color: #2e7d32;
   border-top: 1px solid #222;
 }
 
+.site-footer * {
+  color: #1a1a1a;
+}
+
+/* Links */
 a {
-  color: #ffffff;
+  color: #006400;
   text-decoration: none;
 }
+
 a:hover {
   color: #004d00;
   text-decoration: underline;
