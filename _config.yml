@@ -3,3 +3,7 @@ description: music, thoughts, and everything in between
 theme: minima
 baseurl: "/notes-between-things"
 url: "https://santezeer.github.io"
+header_pages:
+- index.md
+- music.md
+- thoughts.md
