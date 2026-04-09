@@ -8,15 +8,16 @@ body {
   color: #1a1a1a;
 }
 
+.site-header *,
+.site-footer * {
+  color: #ffffff;
+}
+
 .site-header {
-  background-color: #2e7d32;
-  color: #1a1a1a;
   border-bottom: 1px solid #222;
 }
 
 .site-footer {
-  background-color: #2e7d32;
-  color: #1a1a1a;
   border-top: 1px solid #222;
 }
 
