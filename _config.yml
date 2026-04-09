@@ -4,6 +4,6 @@ theme: minima
 baseurl: "/notes-between-things"
 url: "https://santezeer.github.io"
 header_pages:
-- index.md
-- music.md
-- thoughts.md
+  - index.md
+  - music.md
+  - thoughts.md
