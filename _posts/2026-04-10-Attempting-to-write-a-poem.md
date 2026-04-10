@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Being assigned to write a poem"
-date: 2026-04-09
+date: 2026-04-10
 category: thoughts
 ---
 
@@ -11,18 +11,35 @@ So basically, theres many ways to do traditionally and modernly. So, I attempted
 Here it is:
 
 a leaf falls
+
 for which way it falls? 
+
 it does not know
+
 it falls in a haze
+
 shrouded and deep 
+
 down it goes 
+
 for there, it suppose to go
+
 the leaf falls 
+
 the sign point down
+
 the leaf falls 
+
 never touching the ground
 
 
+
+<br>
+
+
+
 I think its good, but I don't like how there's no way for me to have it checked since it can be subjective. Part of me hopes that there isn't a poem already like the one I wrote.
-I've tried writing another poem but it feels choppy and I can tell it feels not right. Granted this is my second poem ever. I just need to practice writing more I think. 
+I've tried writing another poem but it feels choppy and I can tell it feels not right. 
+
+Granted this is my second poem ever. I just need to practice writing more I think. 
 I have about 2 weeks before I "submit" it to him. I hope I can make it special.  
