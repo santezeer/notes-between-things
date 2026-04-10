@@ -474,3 +474,11 @@ a:hover {
   font-size: 1.2rem;
   line-height: 1.35;
 }
+.post-content img {
+  display: block;
+  max-width: 420px;   /* controls size */
+  width: 100%;
+  height: auto;
+  margin: 0 auto 24px auto; /* centers it */
+  border-radius: 14px;
+}
