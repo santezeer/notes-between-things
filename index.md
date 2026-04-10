@@ -7,7 +7,9 @@ permalink: /
 <p class="section-intro">A space for music reviews and thoughts on whatever I notice.</p>
 
 <div class="post-feed">
-  {% for post in site.posts %}
+{% assign sorted_posts = site.posts | sort: "date" | reverse %}
+
+{% for post in sorted_posts %}
     <article class="post-card">
       <h2 class="post-card-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
