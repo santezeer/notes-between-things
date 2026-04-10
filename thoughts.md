@@ -7,7 +7,8 @@ permalink: /thoughts/
 <p class="section-intro">Short posts and observations.</p>
 
 <div class="post-feed">
-  {% for post in site.categories.thoughts %}
+{% assign sorted_posts = site.categories.thoughts | sort: "date" | reverse %}
+{% for post in sorted_posts %}
     <article class="post-card">
       <h2 class="post-card-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
