@@ -6,7 +6,7 @@ category: music
 ---
 
 Here is where I'll be posting my reviews for the albums i have been wanting to listen to. 
-In the recent years, I have been visitng record shops and have been bombarded by record after record that look interesting. I've made it a habit
+In the recent years, I have been visiting record shops and have been bombarded by record after record that look interesting. I've made it a habit
 to take a picture of albums that seem interesting to me to listen to another time. I have a spreadsheet where I do log all of the albums, and input my reviews there.
 I made this site to publish them and to learn how to make a website.
 
