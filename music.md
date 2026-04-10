@@ -7,7 +7,8 @@ permalink: /music/
 <p class="section-intro">All my music reviews.</p>
 
 <div class="post-feed">
-  {% for post in site.categories.music %}
+{% assign sorted_posts = site.categories.music | sort: "date" | reverse %}
+{% for post in sorted_posts %}
     <article class="post-card">
       <h2 class="post-card-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
