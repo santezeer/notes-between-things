@@ -14,27 +14,27 @@ Here it is:
 
 <div class="poem">
 
-a leaf falls
+a leaf falls<br>
 
-for which way it falls? 
+for which way it falls?<br> 
 
-it does not know
+it does not know<br>
 
-it falls in a haze
+it falls in a haze<br>
 
-shrouded and deep 
+shrouded and deep <br>
 
-down it goes 
+down it goes<br> 
 
-for there, it suppose to go
+for there, it suppose to go<br>
 
-the leaf falls 
+the leaf falls<br>
 
-the sign point down
+the sign point down<br>
 
-the leaf falls 
+the leaf falls<br> 
 
-never touching the ground
+never touching the ground<br>
 
 </div>
 
