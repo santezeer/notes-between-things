@@ -3,6 +3,7 @@ layout: post
 title: "Being assigned to write a poem"
 date: 2026-04-10
 category: thoughts
+excerpt: So my boyfriend tasked me with trying to write a poem for him for his birthday. I had no idea how to do that.
 ---
 
 ## Poems
