@@ -126,15 +126,15 @@ a:hover {
 .post-feed {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 10px;
 }
 
 .post-card {
   background-color: #c6f5c6;
   border: 1px solid #6fa96f;
-  border-radius: 16px;
-  padding: 12px 14px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  border-radius: 14px;
+  padding: 8px 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
 }
 
 .post-label {
@@ -148,7 +148,7 @@ a:hover {
 }
 
 .post-card-title {
-  margin: 0 0 6px 0;
+  margin: 0 0 4px 0;
   font-size: 1.25rem;
   line-height: 1.2;
   font-weight: 700;
@@ -165,15 +165,15 @@ a:hover {
 }
 
 .post-card-date {
-  margin: 0 0 8px 0;
+  margin: 0 0 4px 0;
   font-size: 0.85rem;
   color: #3d3d3d;
 }
 
 .post-card-excerpt {
-  margin: 0 0 10px 0;
+  margin: 0 0 6px 0;
   font-size: 0.95rem;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #1f1f1f;
   max-width: 680px;
 }
