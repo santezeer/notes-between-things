@@ -4,7 +4,7 @@ title: Mimose by Parra for Cuva
 date: 2026-04-09
 category: music
 excerpt: "A house and downtempo album that captures movement, nightlife, and social ease, even if a few moments break the immersion."
-image: "/notes-between-things/assets/images/mimose.jpg"
+image: "/assets/images/mimose.jpg"
 ---
 
 ![Mimose by Parra for Cuva](/notes-between-things/assets/images/mimose.jpg)
