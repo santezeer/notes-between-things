@@ -17,9 +17,6 @@ permalink: /
   {% for post in sorted_posts %}
     <article class="post-card">
 
-      {% if post.image %}
-        <img class="post-card-image" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-      {% endif %}
 
       <p class="post-label">{{ post.category }}</p>
 
