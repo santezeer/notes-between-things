@@ -27,7 +27,7 @@ permalink: /
       <p class="post-card-date">{{ post.date | date: "%B %d, %Y" }}</p>
 
       <p class="post-card-excerpt">
-        {{ post.excerpt | strip_html | truncate: 170 }}
+        {{ post.excerpt | strip_html | truncate: 140 }}
       </p>
 
       <a class="read-more" href="{{ post.url | relative_url }}">Read entry</a>
