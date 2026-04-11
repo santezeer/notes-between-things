@@ -3,65 +3,23 @@
 
 @import "minima";
 
+/* Base */
 body {
   background-color: #90EE90;
   color: #1a1a1a;
+  font-size: 17px;
+  line-height: 1.8;
 }
 
-/* Header bar */
-.site-header {
-  background-color: #2e7d32;
-  border-bottom: 1px solid #1f5a24;
-  padding: 14px 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+.wrapper {
+  max-width: 900px;
 }
 
-/* Keep header content centered and spaced nicely */
-.site-header .wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.page-content {
+  padding: 48px 0;
 }
 
-/* Blog title */
-.site-title,
-.site-title:visited {
-  color: #ffffff;
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  text-decoration: none;
-}
-
-/* Header links / nav */
-.site-nav .page-link,
-.site-nav .page-link:visited {
-  color: #ffffff;
-  margin-left: 18px;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-/* Hover effect */
-.site-title:hover,
-.site-nav .page-link:hover {
-  color: #d8ffd8;
-  text-decoration: none;
-}
-
-/* Footer */
-.site-footer {
-  background-color: #2e7d32;
-  border-top: 1px solid #1f5a24;
-}
-
-.site-footer * {
-  color: #1a1a1a;
-}
-
-/* Body links */
+/* Links */
 a {
   color: #006400;
   text-decoration: none;
@@ -72,213 +30,20 @@ a:hover {
   text-decoration: underline;
 }
 
-.section-intro {
-  font-size: 1.05rem;
-  margin-bottom: 24px;
-}
-
-.post-feed {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.post-card {
-  background-color: #baf2ba;
-  border: 1px solid #5d9c5d;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-}
-
-.post-card-title {
-  margin: 0 0 8px 0;
-  font-size: 1.5rem;
-}
-
-.post-card-title a {
-  color: #1a1a1a;
-  text-decoration: none;
-}
-
-.post-card-title a:hover {
-  color: #004d00;
-  text-decoration: underline;
-}
-
-.post-card-date {
-  margin: 0 0 12px 0;
-  font-size: 0.95rem;
-  color: #3d3d3d;
-}
-
-.post-card-excerpt {
-  margin: 0 0 14px 0;
-  line-height: 1.6;
-  color: #1a1a1a;
-}
-
-.read-more {
-  font-weight: 600;
-  color: #006400;
-  text-decoration: none;
-}
-
-.read-more:hover {
-  color: #004d00;
-  text-decoration: underline;
-}
-/* Overall page width and readability */
-.wrapper {
-  max-width: 860px;
-}
-
-/* Body text */
-body {
-  font-size: 17px;
-  line-height: 1.75;
-}
-
-/* Main page content */
-.page-content {
-  padding: 40px 0;
-}
-
-/* Page titles */
-.page-heading,
-.post-list-heading {
-  font-size: 2rem;
-  margin-bottom: 12px;
-  line-height: 1.2;
-}
-
-/* Intro text under page titles */
-.section-intro {
-  font-size: 1.05rem;
-  line-height: 1.7;
-  margin-bottom: 32px;
-  max-width: 700px;
-}
-
-/* Feed spacing */
-.post-feed {
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-}
-
-/* Post cards */
-.post-card {
-  background-color: #baf2ba;
-  border: 1px solid #5d9c5d;
-  border-radius: 14px;
-  padding: 24px 26px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-}
-
-/* Post title */
-.post-card-title {
-  margin: 0 0 10px 0;
-  font-size: 1.55rem;
-  line-height: 1.25;
-  font-weight: 700;
-}
-
-.post-card-title a {
-  color: #1a1a1a;
-  text-decoration: none;
-}
-
-.post-card-title a:hover {
-  color: #004d00;
-  text-decoration: underline;
-}
-
-/* Post date */
-.post-card-date {
-  margin: 0 0 14px 0;
-  font-size: 0.92rem;
-  letter-spacing: 0.02em;
-  color: #3d3d3d;
-}
-
-/* Post excerpt */
-.post-card-excerpt {
-  margin: 0 0 16px 0;
-  font-size: 1rem;
-  line-height: 1.75;
-  color: #1a1a1a;
-}
-
-/* Read more link */
-.read-more {
-  display: inline-block;
-  margin-top: 4px;
-  font-weight: 600;
-  color: #006400;
-  text-decoration: none;
-}
-
-.read-more:hover {
-  color: #004d00;
-  text-decoration: underline;
-}
-
-/* Individual blog post page */
-.post-content {
-  font-size: 1.05rem;
-  line-height: 1.85;
-}
-
-.post-title {
-  font-size: 2.3rem;
-  line-height: 1.15;
-  margin-bottom: 12px;
-}
-
-.post-meta {
-  font-size: 0.95rem;
-  margin-bottom: 28px;
-  color: #3d3d3d;
-}
-
-/* Paragraph spacing inside posts */
-.post-content p {
-  margin-bottom: 1.3em;
-}
-
-/* Headings inside posts */
-.post-content h2 {
-  margin-top: 2em;
-  margin-bottom: 0.6em;
-  font-size: 1.5rem;
-  line-height: 1.3;
-}
-
-.post-content h3 {
-  margin-top: 1.6em;
-  margin-bottom: 0.5em;
-  font-size: 1.2rem;
-  line-height: 1.35;
-}
-/* Page width */
-.wrapper {
-  max-width: 900px;
-}
-
-/* Body */
-body {
-  background-color: #90EE90;
-  color: #1a1a1a;
-  font-size: 17px;
-  line-height: 1.8;
-}
-
 /* Header */
 .site-header {
   background-color: #2e7d32;
   border-bottom: 1px solid #1f5a24;
   padding: 16px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .site-title,
@@ -315,15 +80,17 @@ body {
   color: #1a1a1a;
 }
 
-/* Main content */
-.page-content {
-  padding: 48px 0;
+/* Page intro / hero */
+.section-intro {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 32px;
+  max-width: 700px;
 }
 
-/* Hero section */
 .hero-block {
   margin-bottom: 42px;
-  padding: 8px 0 8px 0;
+  padding: 8px 0;
 }
 
 .hero-block-small {
@@ -355,14 +122,13 @@ body {
   color: #2f2f2f;
 }
 
-/* Feed */
+/* Feed / cards */
 .post-feed {
   display: flex;
   flex-direction: column;
   gap: 28px;
 }
 
-/* Card layout */
 .post-card {
   background-color: #c6f5c6;
   border: 1px solid #6fa96f;
@@ -424,17 +190,6 @@ body {
   text-decoration: underline;
 }
 
-/* Links */
-a {
-  color: #006400;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #004d00;
-  text-decoration: underline;
-}
-
 /* Blog post page */
 .post-header {
   margin-bottom: 28px;
@@ -474,14 +229,17 @@ a:hover {
   font-size: 1.2rem;
   line-height: 1.35;
 }
+
+/* Images inside posts (album art) */
 .post-content img {
   display: block;
-  max-width: 420px;   /* controls size */
+  max-width: 420px;
   width: 100%;
   height: auto;
-  margin: 0 auto 24px auto; /* centers it */
+  margin: 0 auto 24px auto;
   border-radius: 14px;
 }
+
 /* Thoughts post styling */
 .thoughts-post .post-content {
   max-width: 640px;
@@ -504,17 +262,13 @@ a:hover {
 .thoughts-post .post-content p {
   margin-bottom: 1.6em;
 }
+
+/* Poem block */
 .poem {
   margin: 32px auto;
   max-width: 420px;
   line-height: 1;
   font-style: italic;
   white-space: pre-line;
-  text-align: center;   /* 👈 this centers the text */
-}
-.post-card-image {
-  width: 100%;
-  height: 100px;       /* 👈 controls height */
-  object-fit: cover;   /* crops nicely */
-  border-radius: 12px;
+  text-align: center;
 }
